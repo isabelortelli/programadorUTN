@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase4-java script-ejercicio1</title>
+    
+</head>
+<body>
+    <script type="text/javascript" >
+const distancia = prompt('Ingrese la distancia a recorrer:')
+
+ if (distancia < 1000) {
+ document.write('El medio de transporte apropiado es a pie');
+} else if (distancia > 1000 & distancia< 10000) {
+    document.write('El medio de transporte apropiado es bicicleta');
+} else if (distancia>10000 & distancia<30000) {
+    document.write('El medio de transporte apropiado es el colectivo');
+} else if (distancia>30000 & distancia<100000) {
+    document.write('El medio de transporte apropiado es el auto');
+} else {
+    document.write('El medio de transporte apropiado es avion')
+}
+    </script>
+</body>
+</html>
+
