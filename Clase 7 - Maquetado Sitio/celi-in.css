@@ -1,0 +1,27 @@
+
+.cuadrado1{
+    background-image: url(img/headercocina.jpg) ;
+    height: 450px;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.cuadrado2{
+height:300px;
+}
+
+.cuadrado3{
+    height:50px;
+}
+
+.boton{
+    height:50px;
+}
+
+.img{
+    size: 150px;
+}

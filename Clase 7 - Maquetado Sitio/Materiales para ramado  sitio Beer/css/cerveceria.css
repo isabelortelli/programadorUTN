@@ -1,0 +1,16 @@
+
+
+footer{ 
+background-color: black;
+}
+
+h1, h2{
+    font-family: 'Alkalami', serif;
+}
+.home {
+    background-image: url(img/header.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
