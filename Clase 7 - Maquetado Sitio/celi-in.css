@@ -15,6 +15,7 @@ height:300px;
 }
 
 .cuadrado3{
+    margin-top: 100px;
     height:50px;
 }
 
@@ -24,4 +25,27 @@ height:300px;
 
 .img{
     size: 150px;
+}
+.cuadrado4{
+    margin-top: 100px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.cuadrado5{
+    margin-top: 350px;
+    background-color: rgb(241, 239, 239);
+}
+
+.mapa iframe{
+    width:100%;
+    aspect-ratio:1.2;
+}
+
+.nosotros{
+    margin-bottom: 420px;
 }
