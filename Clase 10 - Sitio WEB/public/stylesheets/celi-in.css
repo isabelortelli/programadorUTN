@@ -1,0 +1,51 @@
+
+.cuadrado1{
+    background-image: url(../images/headercocina.jpg) ;
+    height: 450px;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+.cuadrado2{
+height:300px;
+}
+
+.cuadrado3{
+    margin-top: 100px;
+    height:50px;
+}
+
+.boton{
+    height:50px;
+}
+
+.img{
+    size: 150px;
+}
+.cuadrado4{
+    margin-top: 100px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.cuadrado5{
+    margin-top: 350px;
+    background-color: rgb(241, 239, 239);
+}
+
+.mapa iframe{
+    width:100%;
+    aspect-ratio:1.2;
+}
+
+.nosotros{
+    margin-bottom: 420px;
+}
