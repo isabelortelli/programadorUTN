@@ -3,13 +3,13 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 
 /* GET home page. */
-router.get('/', function(_req, res, _next) {
+router.get('/', function (_req, res, _next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/', async(req, _res, _next) => {
+router.post('/', async (req, _res, _next) => {
 
-console.log(req.body)
+  console.log(req.body)
 
   var nombre = req.body.nombre;
   var apellido = req.body.apellido;
@@ -30,14 +30,12 @@ console.log(req.body)
       pass: process.env.SMTP_PASS,
     }
   })
+
+  var info = await transport.sendMail(obj);
+
+  _res.render('index', {
+   message: 'Mensaje enviado correctamente'
+  })
 });
-
-
-//var info = await transport.sendMail(obj);
-
-//_res.render('contacto' , {
-//  message: 'Mensaje enviado correctamente'
-//})
-
 
 module.exports = router;
